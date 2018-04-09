@@ -35,7 +35,7 @@
             <li class="nav-title">Actions</li>
             <li class="nav-item">
               <a class="nav-link" href="#">
-                <i class="nav-icon icon-drop"></i> Add User</a>
+                <i class="nav-icon icon-drop"></i> Add Customer</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">
@@ -43,7 +43,7 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">
-                <i class="nav-icon icon-pie-chart"></i> Remove User</a>
+                <i class="nav-icon icon-pie-chart"></i> Remove Customer</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">
@@ -81,12 +81,12 @@
       </div>
       <main class="main">
         <!-- Breadcrumb-->
-        <ol class="breadcrumb-fixed">
-          <li class="breadcrumb-item">Home</li>
+        <ol class="breadcrumb header-fixed app-header navbar ">
+          <li class="breadcrumb-item"> Home</li>
           <li class="breadcrumb-item">
-            <a href="#">Admin</a>
+            <a href="#"> Admin</a>
           </li>
-          <li class="breadcrumb-item active">Dashboard</li>
+          <li class="breadcrumb-item active"> Dashboard</li>
           <!-- Breadcrumb Menu-->
           <li class="breadcrumb-menu d-md-down-none">
             <div class="btn-group" role="group" aria-label="Button group">
@@ -103,6 +103,72 @@
           </li>
         </ol>
         <div class="container-fluid">
+
+ <div class="row ">
+    <div class="col-lg-12 ">
+      <div class="card ">
+        <div class="card-header ">
+          <i class="fa fa-edit "></i>Add Customer
+          <div class="card-header-actions ">
+            <a href="# " class="btn-setting d-sm-down-none "><i class="icon-settings "></i></a>
+            <a href="# " class="btn btn-minimize " data-toggle="collapse " data-target="#collapseExample " aria-expanded="true "><i class="icon-arrow-up "></i></a>
+            <a href="# " class="btn-close "><i class="icon-close "></i></a>
+          </div>
+        </div>
+        <div class="card-body collapse show " id="collapseExample ">
+          <form class="form-horizontal ">
+            <div class="form-group row">	      
+	      <label class="col-md-1 col-form-label" for="text-input">Customer name:</label>
+              <div class="col-md-10">
+                <input type="text" id="text-input" name="text-input" class="form-control" placeholder="Text">                
+              </div>
+            </div>
+	    
+            <div class="form-group row">	      
+	      <label class="col-md-1 col-form-label" for="text-input">Street name:</label>
+              <div class="col-md-10">
+                <input type="text" id="text-input" name="text-input" class="form-control" placeholder="Text">                
+              </div>
+            </div>
+            <div class="form-group row">	      
+	      <label class="col-md-1 col-form-label" for="text-input">Zip code:</label>
+              <div class="col-md-4">
+                <input type="text" id="text-input" name="text-input" class="form-control" placeholder="Text">
+              </div>
+            </div>
+            <div class="form-group row">	      
+	      <label class="col-md-1 col-form-label" for="text-input">Country:</label>
+              <div class="col-md-4">
+                <input type="text" id="text-input" name="text-input" class="form-control" placeholder="Text">
+              </div>
+            </div>
+            <div class="form-group row">	      
+	      <label class="col-md-1 col-form-label" for="text-input">Contact email:</label>
+              <div class="col-md-4">
+                <input type="text" id="text-input" name="text-input" class="form-control" placeholder="Text">
+              </div>
+            </div>
+            <div class="form-actions ">
+              <button type="submit " class="btn btn-primary ">Save changes</button>
+              <button type="button " class="btn btn-secondary ">Cancel</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div><!--/.col-->
+  </div><!--/.row-->
+
+
+
+
+
+
+
+
+
+
+
+	  
         </div>
       </main>
       <aside class="aside-menu">
