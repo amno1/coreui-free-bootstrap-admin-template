@@ -4459,6 +4459,7 @@ tbody.collapse.show {
 }
 
 .breadcrumb {
+  position: fixed;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
