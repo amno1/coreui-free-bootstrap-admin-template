@@ -1,1 +1,23 @@
 // Here you can add other styles
+
+div.spacer{
+    font-size: 0;
+    line-height: 0;
+    height: 70px;
+}
+
+.app-body {
+  margin-top: 0;
+}
+  
+@media (max-width: 991.98px) {
+  .app-body {
+  margin-top: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .header-fixed .app-body {
+    margin-top: 0;
+  }
+}
