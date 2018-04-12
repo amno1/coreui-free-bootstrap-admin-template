@@ -28,13 +28,12 @@ div.spacer{
 .breadcrumb {
     top: 0;
     align-items: center;
-    background: #FF0000;
-    background-color: #FF0000;
 }
 
 .breadcrumb-fixed .breadcrumb {
   position: fixed;
   right: 0;
   left: 0;
+  top: 0;
   z-index: 1017;
 }
